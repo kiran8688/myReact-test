@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home/Home';
+import Button from './Components/Buttons/Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello this is my first react test app</h1>
+      <Home></Home>
+      <Button color="success"/><br /><br />
+      <Button color="danger"/>
+      <Button color="primary"/>
+      <Button color="secondary"/>
     </div>
   );
 }
 
-export default App;
+export default  App; 
