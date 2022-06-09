@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>hello this is my first react test app</h1>
       <Home></Home>
-      <Button color="success"/><br /><br />
+      <Button /><br /><br />
       <Button color="danger"/>
       <Button color="primary"/>
       <Button color="secondary"/>

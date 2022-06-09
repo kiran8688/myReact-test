@@ -11,4 +11,8 @@ class Button extends Component{
     }
 }
 
+Button.defaultProps = {
+    color: 'info'
+}
+
 export default Button;
