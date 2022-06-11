@@ -1,12 +1,17 @@
 import './Home.css'
+// import Button from '../Buttons/Button';
+import { Component } from 'react';
 
-const Home = () =>{
+class Home extends Component {
+    
+    render(props) {
 
     return(
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos iure iusto repudiandae excepturi ex corporis asperiores aperiam culpa magnam similique sapiente quas nostrum, temporibus numquam soluta cum? Beatae, qui assumenda?</p>
-        </div>
+        <h1>
+            
+        </h1>
     )
 
+}
 }
 export default Home;
