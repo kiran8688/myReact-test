@@ -22,17 +22,17 @@ class Button extends Component{
     render( props ) {
         const contextClassBtn = `btn btn-${this.props.color}`
         
-       const switchTextHandler = (props) =>{
-            console.log("clicked!");
+    //    const switchTextHandler = (props) =>{
+    //         console.log("clicked!");
             
-            return( <Home>{this.props.text}</Home>)
-        }
+    //         return( <Home>{this.props.text}</Home>)
+    //     }
         
 
         return(
             <div className="container">
 
-            <button className={contextClassBtn} onClick={switchTextHandler} > Click me </button>
+            <button className={contextClassBtn} onClick={this.props.onClick} > Click me </button>
             
             </div>
         )

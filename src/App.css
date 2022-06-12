@@ -1,0 +1,9 @@
+#card-emp{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#emp-card{
+    display: flex;
+    flex-wrap: wrap;
+}

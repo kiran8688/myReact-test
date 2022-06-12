@@ -7,9 +7,9 @@ class Home extends Component {
     render(props) {
 
     return(
-        <h1>
-            
-        </h1>
+        <h4 className={this.props.className} >
+            {this.props.text}
+        </h4>
     )
 
 }
