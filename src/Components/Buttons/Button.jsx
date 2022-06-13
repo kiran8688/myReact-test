@@ -42,7 +42,7 @@ class Button extends Component{
 
  Button.defaultProps = {
     color: 'info',
-    // onclick : "Hello guys this is my First React Test App"
+    
 }
 
 export default Button;
